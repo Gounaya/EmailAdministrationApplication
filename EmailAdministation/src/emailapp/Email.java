@@ -8,7 +8,7 @@ public class Email {
 	private String email;
 	private String password;
 	private String department;
-	private String mailboxCapacity;
+	private int mailboxCapacity = 500;
 	private int defaultPasswordLength = 10;
 	private String alternateEmail;
 	private String campany = "osmcompany.com";
@@ -60,7 +60,6 @@ public class Email {
 	// Set the alternat email 
 	
 	// Change the password 
-	
-	// Section 2, session 10
+
 	
 }
